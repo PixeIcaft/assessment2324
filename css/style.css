@@ -1,1 +1,83 @@
-/* add all items from grading group 3 and 4. Search for items in group 5 that refer to css f.e. z index */ 
+@import url("https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --primary-color: #b83a01;
+  --secondary-color: #bc5b10;
+  --accent-color: #034189;
+  --text-color: #ffffff;
+  --body-text: "Roboto", sans-serif;
+  --title-text: "Cherry Bomb One", sans-serif;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  color: var(--text-color);
+  background-color: var(--secondary-color);
+}
+
+p {
+  font-family: var(--body-text);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100px;
+  background-color: var(--primary-color);
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.logo-header {
+  height: 80px;
+  margin: 0;
+}
+
+header nav {
+  height: 100%;
+  display: flex;
+}
+
+header nav ul {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav ul li a {
+  color: var(--text-color);
+  font-family: var(--body-text);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.button {
+  background-color: var(--accent-color);
+  border: none;
+  border-radius: 8px;
+  min-width: 90px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.button:hover {
+  filter: brightness(150%);
+}
