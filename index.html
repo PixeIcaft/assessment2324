@@ -1,15 +1,24 @@
 <!DOCTYPE html>
 <html lang="nl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
     <link rel="stylesheet" type="text/css" href="css/style.css" />
-</head>
-<body>
-     <header>
+  </head>
+  <body>
+    <header>
       <img src="img/logo.png" alt="logo van de site" class="logo-header" />
-      <nav>
+
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+
+      <label for="menu-toggle" class="hamburger-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </label>
+
+      <nav id="mainNavigation">
         <ul>
           <li>
             <a class="button" href="#">Home</a>
@@ -33,12 +42,67 @@
       </nav>
     </header>
     <main>
-        <section></section>
-        <section></section>
-        <section></section>
-        <section></section>
-        <section></section>
-        <section></section>
+      <section>
+        <h1>Hondvriendelijke cafe&apos;s</h1>
+        <p>
+          Ben je op pad met je hond in Alkmaar en wil je even pauze nemen? Hier
+          vind je een handig overzicht van cafés en koffiezaken waar jouw hond
+          welkom is. Ontdek de beste terrassen, voorzieningen en plekken
+          dichtbij parken.
+        </p>
+      </section>
+
+      <section class="section-terras">
+        <h2>Terrassen & buitenplekken</h2>
+        <p>
+          Veel hondeneigenaren genieten van een terras in de buitenlucht. Op
+          onze overzichtspagina vind je cafés met ruime terrassen en
+          schaduwrijke plekken. Zo ligt je hond comfortabel naast je, ook
+          tijdens warme dagen.
+        </p>
+        <a class="button" href="#">Lees hier meer &rarr;</a>
+      </section>
+
+      <section class="section-bijparken">
+        <h2>Locaties dicht bij parken of uitlaatvelden</h2>
+        <p>
+          Wil je eerst je hond laten rennen en daarna genieten van koffie? We
+          hebben koffiestops verzameld die vlak bij parken of uitlaatvelden
+          liggen. Zo combineer je een fijne wandeling met een ontspannen pauze.
+        </p>
+        <a class="button" href="#">Lees hier meer &rarr;</a>
+      </section>
+
+      <section class="section-voorzieningen">
+        <h2>Extra voorzieningen voor je hond</h2>
+        <p>
+          Sommige cafés doen nét dat beetje extra: een waterbak, hondensnacks of
+          een bakje vers water. Zo wordt de stop niet alleen voor jou, maar ook
+          voor je hond een fijne ervaring.
+        </p>
+        <a class="button" href="#">Lees hier meer &rarr;</a>
+      </section>
+
+      <section class="section-waaromgeenhonden">
+        <h2>Waarom laten sommige cafe’s geen honden toe?</h2>
+        <p>
+          Niet overal zijn honden welkom, bijvoorbeeld door hygiëne, allergieën
+          of drukte. Op deze pagina lees je de redenen, zodat je begrijpt waarom
+          de regels verschillen en teleurstellingen kunt voorkomen.
+        </p>
+        <a class="button" href="#">Lees hier meer &rarr;</a>
+      </section>
+
+      <section>
+        <h1>Deel jouw tips en ontdekkingen</h1>
+        <p>
+          Weet jij een café dat nog niet op de site staat? Of klopt er iets niet
+          in de informatie? Via het contactformulier kun je eenvoudig tips of
+          correcties doorgeven. Zo blijft de website actueel en nuttig voor alle
+          hondeneigenaren in Alkmaar.
+        </p>
+        <a class="button" href="#">Lees hier meer &rarr;</a>
+      </section>
     </main>
     <footer>
       <img src="img/logo.png" alt="logo van de site" class="logo-footer" />
@@ -67,5 +131,5 @@
         </ul>
       </nav>
     </footer>
-</body>
+  </body>
 </html>
