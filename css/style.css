@@ -81,3 +81,34 @@ header nav ul li a {
 .button:hover {
   filter: brightness(150%);
 }
+
+.logo-footer {
+  height: 200px;
+  width: 200px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  padding: 10px 0;
+  background-color: var(--primary-color);
+  padding-right: 30px;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+
+footer nav ul li a {
+  color: var(--text-color);
+  font-family: var(--body-text);
+  text-decoration: underline;
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+footer a:hover {
+  filter: brightness(50%);
+}
