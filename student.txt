@@ -1,5 +1,5 @@
-Student name: your name 
+Student name: Ryan de Graaf
 Student number: your student number
 Student class: your class
-GitHub Repository: your github repository URL
+GitHub Repository: https://github.com/PixeIcaft/assessment2324
 GitHub Pages URL: your github pages URL

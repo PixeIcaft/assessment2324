@@ -112,3 +112,41 @@ footer nav ul li a {
 footer a:hover {
   filter: brightness(50%);
 }
+
+main {
+  flex-grow: 1;
+  display: grid;
+  /* justify-content: center; */
+  grid-template-rows: repeat(6, 1fr);
+  gap: 20px;
+  /* padding: 20px; */
+  padding: 40px 0;
+  height: 100%;
+  /* margin: 0 auto; */
+}
+
+main section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-color: var(--primary-color);
+  border-radius: 8px;
+  /* width: 100%; */
+  /* min-width: 960px; */
+  max-width: 1200px;
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 961px) {
+  main {
+    padding: 100px 40px;
+    justify-content: center;
+  }
+
+  main section {
+    min-width: 960px;
+  }
+}
