@@ -291,8 +291,13 @@ main section .button {
   flex-grow: 1;
 }
 
+.cookies-buttons {
+  display: flex;
+}
+
 .cookies-message .reject-button {
   margin-left: 10px;
+  margin-bottom: 10px;
   padding: 10px 20px;
   font-size: 16px;
   width: auto;
@@ -467,4 +472,11 @@ main section .button {
   .hide-background-mobile {
     background-image: none;
   }
+
+  .cookies-buttons {
+    display: flex;
+    flex-direction: column;
+  }
 }
+
+
