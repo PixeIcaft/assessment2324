@@ -42,8 +42,8 @@ h2 {
 }
 
 ul {
-    font-family: var(--text-body);
-    font-size: var(--text-body-size);
+  font-family: var(--text-body);
+  font-size: var(--text-body-size);
 }
 
 header {
@@ -175,6 +175,11 @@ main section {
   height: auto;
 }
 
+main > a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .section-terras {
   background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
     url("../img/page1/afbeelding1.jpg");
@@ -218,6 +223,7 @@ main section .button {
   height: 48px;
   font-size: var(--text-body-size);
   font-family: var(--text-body);
+  color: #0000FF;
   text-align: right;
   align-content: center;
   padding: 5px 0;
@@ -256,10 +262,9 @@ main section .button {
   overflow: hidden;
 }
 
-  .section-img-mobile {
-    display: none;
-  }
-
+.section-img-mobile {
+  display: none;
+}
 
 @media (max-width: 960px) {
   :root {
@@ -358,7 +363,6 @@ main section .button {
     overflow: hidden;
     display: flex;
   }
-
 
   main {
     gap: 40px;
