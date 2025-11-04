@@ -224,7 +224,7 @@ main section .button {
   height: 48px;
   font-size: var(--text-body-size);
   font-family: var(--text-body);
-  color: #0000FF;
+  color: #0000ff;
   text-align: right;
   align-content: center;
   padding: 5px 0;
@@ -265,6 +265,81 @@ main section .button {
 
 .section-img-mobile {
   display: none;
+}
+
+.cookies-message {
+  z-index: 9999;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  font-family: var(--text-body);
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+}
+
+.cookies-message p {
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  flex-grow: 1;
+}
+
+.cookies-message .reject-button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  width: auto;
+  height: auto;
+  text-align: center;
+  align-content: center;
+  color: var(--text-color);
+  cursor: pointer;
+  border-radius: 8px;
+  background-color: transparent;
+  color: var(--text-color);
+  border: 2px solid var(--text-color);
+}
+
+.reject-button:hover {
+  filter: brightness(50%);
+}
+
+.cookies-message .accept-button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  width: auto;
+  height: auto;
+  text-align: center;
+  align-content: center;
+  color: var(--text-color);
+  cursor: pointer;
+  background-color: var(--accent-color);
+  border-radius: 8px;
+}
+
+.cookie-toggle {
+  display: none;
+}
+
+#cookie-accept:checked ~ label.accept-button,
+#cookie-accept:checked ~ label.reject-button,
+#cookie-accept:checked ~ p {
+  display: none;
+}
+
+.cookies-message:has(#cookie-accept:checked) {
+  padding: 0;
+  height: 0;
+  min-height: 0;
+  overflow: hidden;
 }
 
 @media (max-width: 960px) {
@@ -389,7 +464,7 @@ main section .button {
     align-items: start;
   }
 
-    .hide-background-mobile {
-        background-image: none;
-    }
+  .hide-background-mobile {
+    background-image: none;
+  }
 }
