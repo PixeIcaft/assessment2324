@@ -1,5 +1,5 @@
 Student name: Ryan de Graaf
-Student number: your student number
-Student class: your class
+Student number: 749191
+Student class: HAINF25VT1A
 GitHub Repository: https://github.com/PixeIcaft/assessment2324
 GitHub Pages URL: https://pixeicaft.github.io/assessment2324/
