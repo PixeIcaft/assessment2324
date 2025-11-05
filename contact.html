@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Ryan de Graaf" />
     <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link
       rel="icon"
       type="image/png"
@@ -11,5 +13,161 @@
       sizes="32x32"
     />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <img src="img/logo.png" alt="logo van de site" class="logo-header" />
+
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+
+      <label for="menu-toggle" class="hamburger-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </label>
+
+      <nav id="mainNavigation">
+        <ul>
+          <li>
+            <a class="button" href="index.html">Home</a>
+          </li>
+          <li>
+            <a class="button" href="page1.html">Terrassen</a>
+          </li>
+          <li>
+            <a class="button" href="page2.html">Bij parken</a>
+          </li>
+          <li>
+            <a class="button" href="page3.html">Voorzieningen</a>
+          </li>
+          <li>
+            <a class="button" href="page4.html">Waarom geen honden</a>
+          </li>
+          <li>
+            <a class="button active" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h1>Deel jouw tips of meldingen</h1>
+        <p>
+          Heb jij een nieuwe hondvriendelijke koffiestop ontdekt in Alkmaar? Of
+          klopt er iets niet in de informatie op deze site? Via dit
+          contactformulier kun je eenvoudig tips en correcties doorgeven. Zo
+          blijft de website actueel en nuttig voor alle hondeneigenaren.
+        </p>
+      </section>
+
+      <section>
+        <h2>Waarom jouw input belangrijk is</h2>
+        <p>
+          De informatie op deze site is bedoeld om hondeneigenaren te helpen
+          snel een geschikte plek te vinden. Met jouw bijdrage zorgen we ervoor
+          dat het overzicht volledig en betrouwbaar blijft. Elke tip &ndash;
+          groot of klein &ndash; helpt andere baasjes en hun honden aan een
+          betere ervaring.
+        </p>
+      </section>
+
+      <section class="form-section">
+        <form action="#" method="post">
+          <fieldset>
+            <legend>Contactformulier</legend>
+            <section class="two-inputs-section">
+              <section class="label-and-input-section">
+                <label for="firstName">Voornaam</label>
+                <input
+                  type="text"
+                  id="firstName"
+                  name="firstName"
+                  placeholder="John"
+                  required
+                />
+              </section>
+              <section class="label-and-input-section">
+                <label for="lastName">Achternaam</label>
+                <input
+                  type="text"
+                  id="lastName"
+                  name="lastName"
+                  placeholder="Pork"
+                  required
+                />
+              </section>
+            </section>
+
+            <section class="label-and-input-section">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="johnpork@gmail.com"
+                required
+              />
+            </section>
+
+            <section class="label-and-input-section">
+              <label for="message">Opmerking</label>
+              <textarea
+                id="message"
+                name="message"
+                placeholder="U bericht hier..."
+                rows="8"
+                required
+              ></textarea>
+            </section>
+
+            <section class="two-inputs-section">
+              <section class="conditions-section">
+                <input
+                  type="checkbox"
+                  id="conditions"
+                  name="conditions"
+                  required
+                />
+                <label for="conditions"> ik heb de voorwaarden gelezen </label>
+              </section>
+
+              <input
+                type="submit"
+                value="Verstuur"
+                class="button submit-button"
+              />
+            </section>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <section>
+        <img src="img/logo.png" alt="logo van de site" class="logo-footer" />
+        <p>&copy; 2025 Hondvriendelijk Alkmaar – alle rechten voorbehouden.</p>
+      </section>
+
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="page1.html">Terrassen</a>
+          </li>
+          <li>
+            <a href="page2.html">Bij parken</a>
+          </li>
+          <li>
+            <a href="page3.html">Voorzieningen</a>
+          </li>
+          <li>
+            <a href="page4.html">Waarom geen honden</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
 </html>
