@@ -495,9 +495,9 @@ label {
 
 @media (max-width: 48rem) {
   :root {
-    --text-title-size-h1: 1.625em;
-    --text-title-size-h2: 1.5em;
-    --text-title-size-h3: 1.25em;
+    --text-title-size-h1: 1.4em;
+    --text-title-size-h2: 1.3em;
+    --text-title-size-h3: 1.2em;
     --text-body-size: 0.875em;
   }
 
@@ -588,6 +588,7 @@ label {
   .section-img-mobile {
     flex: 0 0 100%;
     padding: 0;
+
     overflow: hidden;
     display: flex;
   }
@@ -621,6 +622,10 @@ label {
 
   .cookies-buttons {
     display: flex;
+    flex-direction: column;
+  }
+
+  .two-inputs-section {
     flex-direction: column;
   }
 }
