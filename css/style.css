@@ -187,6 +187,7 @@ main {
   box-sizing: border-box;
 }
 
+main span,
 main figure,
 main article,
 main aside,
