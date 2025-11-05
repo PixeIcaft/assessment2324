@@ -33,7 +33,7 @@ p {
 }
 
 p::first-letter {
-  font-size: 2.5em;
+  font-size: 1em;
   font-weight: bold;
 }
 
@@ -321,6 +321,7 @@ main section .section-button {
   align-items: center;
   box-shadow: 0 -0.125rem 0.625rem rgba(0, 0, 0, 0.5);
   box-sizing: border-box;
+  border: none;
 }
 
 .cookies-message p {
