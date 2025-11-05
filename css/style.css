@@ -224,6 +224,11 @@ main > a {
   color: inherit;
 }
 
+a:active,
+a:focus {
+  color: var(--accent-color);
+}
+
 .section-terras {
   background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
     url("../img/page1/afbeelding1.jpg");
