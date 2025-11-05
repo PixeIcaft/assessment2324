@@ -467,6 +467,29 @@ label {
 }
 
 /* -------------------------------------------------------- */
+/* tablet section styling                                   */
+/* -------------------------------------------------------- */
+
+@media (max-width: 60.3125rem) {
+    header nav ul {
+        grid-template-columns: repeat(3, 1fr);
+        height: 100%; 
+    }
+    
+    header nav {
+        flex-grow: 1; 
+        justify-content: flex-end; 
+        height: 100%;
+        align-items: center; 
+    }
+
+    header nav ul li a {
+        padding: 0.5rem 0.8rem;
+        font-size: 1.2em;
+    }
+}
+
+/* -------------------------------------------------------- */
 /* telefoon section styling                                 */
 /* -------------------------------------------------------- */
 
