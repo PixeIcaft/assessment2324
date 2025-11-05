@@ -9,9 +9,9 @@
   --text-title: "Cherry Bomb One", sans-serif;
 
   /* dekstop groote tekst */
-  --text-title-size-h1: 56px;
-  --text-title-size-h2: 40px;
-  --text-body-size: 24px;
+  --text-title-size-h1: 3.5rem;
+  --text-title-size-h2: 2.5rem;
+  --text-body-size: 1.5rem;
 }
 
 body {
@@ -26,19 +26,19 @@ body {
 p {
   font-family: var(--text-body);
   font-size: var(--text-body-size);
-  padding: 0 40px;
+  padding: 0 2.5rem;
 }
 
 h1 {
   font-family: var(--text-title);
   font-size: var(--text-title-size-h1);
-  padding: 0 40px;
+  padding: 0 2.5rem;
 }
 
 h2 {
   font-family: var(--text-title);
   font-size: var(--text-title-size-h2);
-  padding: 0 40px;
+  padding: 0 2.5rem;
 }
 
 ul {
@@ -51,14 +51,14 @@ header {
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  height: 100px;
+  height: 6.25rem;
   background-color: var(--primary-color);
-  padding: 0 20px;
+  padding: 0 1.25rem;
   box-sizing: border-box;
 }
 
 .logo-header {
-  height: 80px;
+  height: 5rem;
   margin: 0;
 }
 
@@ -93,14 +93,14 @@ header nav ul li a {
   background-color: var(--accent-color);
   color: var(--text-color);
   border: none;
-  border-radius: 8px;
-  min-width: 90px;
+  border-radius: 0.5rem;
+  min-width: 5.625rem;
   height: auto;
-  padding: 10px 20px;
+  padding: 0.625rem 1.25rem;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 1rem;
   cursor: pointer;
   white-space: nowrap;
 }
@@ -122,8 +122,8 @@ header nav ul li a {
 }
 
 .logo-footer {
-  height: 200px;
-  width: 200px;
+  height: 12.5rem;
+  width: 12.5rem;
 }
 
 footer {
@@ -132,10 +132,10 @@ footer {
   justify-content: space-between;
   width: 100%;
   height: auto;
-  padding: 10px 0;
+  padding: 0.625rem 0;
   background-color: var(--primary-color);
-  padding-right: 30px;
-  padding-left: 20px;
+  padding-right: 1.875rem;
+  padding-left: 1.25rem;
   box-sizing: border-box;
 }
 
@@ -145,7 +145,7 @@ footer nav ul li a {
   font-size: var(--text-body-size);
   text-decoration: underline;
   display: block;
-  padding: 5px 0;
+  padding: 0.3125rem 0;
 }
 
 footer section {
@@ -161,11 +161,11 @@ main {
   flex-grow: 1;
   display: grid;
   grid-auto-rows: minmax(min-content, max-content);
-  gap: 100px;
-  padding: 100px 0;
+  gap: 6.25rem;
+  padding: 6.25rem 0;
   height: 100%;
   width: 100%;
-  max-width: 1200px;
+  max-width: 75rem;
   margin: 0 auto;
   box-sizing: border-box;
 }
@@ -173,10 +173,10 @@ main {
 main section {
   display: flex;
   flex-direction: column;
-  padding-bottom: 20px;
-  min-height: 200px;
+  padding-bottom: 1.25rem;
+  min-height: 12.5rem;
   background-color: var(--primary-color);
-  border-radius: 50px;
+  border-radius: 3.125rem;
   width: 100%;
   height: auto;
 }
@@ -224,17 +224,17 @@ main > a {
 
 main section .section-button {
   margin-left: auto;
-  margin-right: 40px;
-  width: 250px;
-  height: 48px;
+  margin-right: 2.5rem;
+  width: 15.625rem;
+  height: 3rem;
   font-size: var(--text-body-size);
   font-family: var(--text-body);
   color: #0000ff;
   text-align: right;
   align-content: center;
-  padding: 5px 0;
-  padding-right: 30px;
-  border-radius: 50px;
+  padding: 0.3125rem 0;
+  padding-right: 1.875rem;
+  border-radius: 3.125rem;
   background-color: rgba(255, 255, 255, 0.6);
 }
 
@@ -263,8 +263,8 @@ main section .section-button {
   max-width: 45%;
   align-self: flex-end;
   height: auto;
-  margin-bottom: -20px;
-  border-radius: 50px;
+  margin-bottom: -1.25rem;
+  border-radius: 3.125rem;
 }
 
 .section-with-map {
@@ -285,16 +285,16 @@ main section .section-button {
   background-color: var(--primary-color);
   color: var(--text-color);
   font-family: var(--text-body);
-  padding: 15px 40px;
+  padding: 0.9375rem 2.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 -0.125rem 0.625rem rgba(0, 0, 0, 0.5);
   box-sizing: border-box;
 }
 
 .cookies-message p {
-  font-size: 16px;
+  font-size: 1rem;
   padding: 0;
   margin: 0;
   flex-grow: 1;
@@ -305,18 +305,18 @@ main section .section-button {
 }
 
 .cookies-message .reject-button {
-  margin-left: 10px;
-  margin-bottom: 10px;
-  padding: 10px 20px;
-  font-size: 16px;
+  margin-left: 0.625rem;
+  margin-bottom: 0.625rem;
+  padding: 0.625rem 1.25rem;
+  font-size: 1rem;
   width: auto;
-  height: 20px;
+  height: 1.25rem;
   text-align: center;
   align-content: center;
   cursor: pointer;
-  border-radius: 8px;
+  border-radius: 0.5rem;
   background-color: transparent;
-  border: 2px solid white;
+  border: 0.125rem solid white;
 }
 
 .reject-button:hover {
@@ -324,16 +324,16 @@ main section .section-button {
 }
 
 .cookies-message .accept-button {
-  margin-left: 10px;
-  padding: 10px 20px;
-  font-size: 16px;
+  margin-left: 0.625rem;
+  padding: 0.625rem 1.25rem;
+  font-size: 1rem;
   width: auto;
-  height: 20px;
+  height: 1.25rem;
   text-align: center;
   align-content: center;
   cursor: pointer;
   background-color: var(--accent-color);
-  border-radius: 8px;
+  border-radius: 0.5rem;
 }
 
 .cookie-toggle {
@@ -366,7 +366,7 @@ main section .section-button {
 }
 
 form {
-  padding: 20px;
+  padding: 1.25rem;
 }
 
 fieldset {
@@ -377,8 +377,8 @@ fieldset {
 .form-section input[type="email"],
 .form-section textarea {
   border: none;
-  border-radius: 25px;
-  padding: 15px 20px;
+  border-radius: 1.5625rem;
+  padding: 0.9375rem 1.25rem;
   box-sizing: border-box;
   width: 100%;
   font-family: var(--text-body);
@@ -399,44 +399,44 @@ textarea {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 10px;
+  gap: 0.625rem;
 }
 
 .submit-button {
-  width: 150px;
-  height: 50px;
+  width: 9.375rem;
+  height: 3.125rem;
   align-self: center;
 }
 
 input[type="checkbox"] {
-  width: 24px;
-  height: 24px;
+  width: 1.5rem;
+  height: 1.5rem;
 }
 
 legend {
   font-family: var(--text-title);
   font-size: var(--text-title-size-h2);
-  padding-bottom: 20px;
+  padding-bottom: 1.25rem;
   width: 100%;
 }
 
 label {
-  padding: 4px 15px;
+  padding: 0.25rem 0.9375rem;
 }
 
 /* -------------------------------------------------------- */
 /* telefoon section styling                                 */
 /* -------------------------------------------------------- */
 
-@media (max-width: 768px) {
+@media (max-width: 48rem) {
   :root {
-    --text-title-size-h1: 26px;
-    --text-title-size-h2: 24px;
-    --text-body-size: 14px;
+    --text-title-size-h1: 1.625rem;
+    --text-title-size-h2: 1.5rem;
+    --text-body-size: 0.875rem;
   }
 
   main {
-    padding: 40px 0px;
+    padding: 2.5rem 0rem;
   }
 
   header {
@@ -451,41 +451,41 @@ label {
     top: unset;
     right: unset;
     z-index: 10;
-    padding: 10px;
+    padding: 0.625rem;
   }
 
   .hamburger-menu .bar {
     display: block;
-    width: 70px;
-    height: 7px;
-    margin: 5px 0;
+    width: 4.375rem;
+    height: 0.4375rem;
+    margin: 0.3125rem 0;
     background-color: var(--text-color);
-    border-radius: 2px;
+    border-radius: 0.125rem;
   }
 
   #mainNavigation {
     display: none;
     position: absolute;
-    top: 100px;
+    top: 6.25rem;
     right: 0;
-    width: 250px;
-    height: 260px;
+    width: 15.625rem;
+    height: 16.25rem;
     background-color: rgba(0, 0, 0, 0.8);
-    border-radius: 0 0 8px 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+    border-radius: 0 0 0.5rem 0.5rem;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.8);
     z-index: 9;
   }
 
   #mainNavigation ul {
     display: flex;
     flex-direction: column;
-    padding: 10px 0;
+    padding: 0.625rem 0;
     grid-template-columns: 1fr;
   }
 
   #mainNavigation ul li {
     justify-content: flex-start;
-    padding: 5px 0px;
+    padding: 0.3125rem 0;
     width: 100%;
   }
 
@@ -495,10 +495,10 @@ label {
     min-width: unset;
     font-weight: normal;
     text-decoration: underline;
-    padding: 5px 0;
+    padding: 0.3125rem 0;
     display: block;
     width: 100%;
-    padding: 5px 20px;
+    padding: 0.3125rem 1.25rem;
     color: var(--text-color);
     text-align: left;
   }
